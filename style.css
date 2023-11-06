@@ -30,6 +30,7 @@ p {
 .job-title {
     font-size: medium;
     color: #5a5858f1;
+    font-size: 18px;
 }
 
 .container {
@@ -61,6 +62,23 @@ p {
 
 .social-links li a:hover {
     color: black;
+}
+
+.btn-lewagon {
+    background-color: rgb(230, 15, 5);
+    border-style: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.btn-lewagon a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.btn-lewagon:hover {
+    background-color: rgb(168, 51, 45);
 }
 
 @media (max-width: 720px) {
